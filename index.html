@@ -33,10 +33,10 @@
   <link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"> -->
-  <!-- <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"> -->
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 
   <link rel="stylesheet" href="styles/libraries.min.css"/>
 
@@ -1226,6 +1226,14 @@ $scope.icons = &quot;{{icons}}&quot;;
           <td>false</td>
           <td>
             <p>Whether multiple selections should be allowed.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>all-none-buttons</td>
+          <td>boolean</td>
+          <td>false</td>
+          <td>
+            <p>Show the buttons to select and deselect all items at once.</p>
           </td>
         </tr>
         <tr>
@@ -2956,13 +2964,14 @@ $scope.selectedAddress = &quot;{{selectedAddress}}&quot;;
 <!--/ngInclude: 'views/footer.html' -->
 </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-sanitize.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
-  <!-- <script src="bower_components/angular/angular.js"></script> -->
-  <!-- <script src="bower_components/angular-sanitize/angular-sanitize.js"></script> -->
-  <!-- <script src="bower_components/angular-animate/angular-animate.js"></script> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-sanitize.min.js"></script> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script> -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="scripts/libraries.min.js"></script>
 
   <script src="scripts/angular-strap.min.js"></script>
